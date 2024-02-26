@@ -15,8 +15,7 @@
   },
   "keywords": [],
   "author": {
-    "name": "NirwMukti",
-    "email": "nnirwana48@gmail.com"
+    "name": "Alsav System"
   },
   "license": "MIT",
   "dependencies": {
@@ -42,7 +41,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/NirwMukti/Alsav-TR-Checker"
+    "url": "https://github.com/SattyaP/Alsav-TR-Checker/"
   },
   "build": {
     "appId": "Alsav Traffic Checker",
@@ -51,7 +50,7 @@
     "copyright": "Copyrights 2024 AlsavSystem",
     "publish": {
       "provider": "github",
-      "owner": "NirwMukti",
+      "owner": "SattyaP",
       "repo": "Alsav-TR-Checker",
       "private": false
     },
