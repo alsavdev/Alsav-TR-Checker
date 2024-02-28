@@ -1,7 +1,7 @@
 {
   "name": "traffic-checker",
   "productName": "Alsav Traffic Checker",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "Alsav Web Traffic Checker",
   "main": "src/index.js",
   "scripts": {
@@ -50,9 +50,9 @@
     "copyright": "Copyrights 2024 AlsavSystem",
     "publish": {
       "provider": "github",
+      "private": true,
       "owner": "SattyaP",
-      "repo": "Alsav-TR-Checker",
-      "private": false
+      "repo": "Alsav-TR-Checker"
     },
     "win": {
       "target": "nsis"
@@ -63,6 +63,9 @@
       "perMachine": false,
       "allowToChangeInstallationDirectory": true,
       "createDesktopShortcut": true
-    }
+    },
+    "extraFiles": [
+      "node_modules"
+    ]
   }
 }
